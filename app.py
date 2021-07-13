@@ -45,7 +45,8 @@ def listSymbol():
 
 def getMultiselectSymbols():
     '''Retorna widget para multiselecão de ativos'''
-    return st.sidebar.multiselect('Multiselect', listSymbol())
+    return st.multiselect('Multiselect', listSymbol())
+    # return st.sidebar.multiselect('Multiselect', listSymbol())
 
 
 def addAccumulator(df):
