@@ -1,2 +1,2 @@
 streamlit>=0.69.2
-MetaTrader5
+metatrader5>=5.0
